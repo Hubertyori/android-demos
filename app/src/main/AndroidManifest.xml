@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="studio.opclound.lastlabclass">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login.Login"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login.Register"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Login.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Login.Activitys.LifeCycle.LifeCycleMainActivity" />
+        <activity android:name=".Login.Activitys.LifeCycle.Dialog" />
+        <activity android:name=".Login.Activitys.LifeCycle.LifeCycleActivity" />
+        <activity android:name=".Login.Activitys.LifeCycle.UserName.UserNameMainActivity" />
+        <activity android:name=".Login.Activitys.LifeCycle.UserName_Final.UserNameFinalMainActivity" />
+        <activity android:name=".Login.Activitys.LifeCycle.Layout.LayoutActivityLinearLayout" />
+        <activity android:name=".Login.Activitys.LifeCycle.Layout.LayoutMainActivity" />
+        <activity android:name=".Login.Activitys.LifeCycle.Layout.LayoutActivityRelativelayout" />
+        <activity android:name=".Login.Activitys.LifeCycle.Layout_Final.LayoutFinalMainActivity" />
+        <activity android:name=".Login.Activitys.LifeCycle.Button_Design.ButtonDesignMainActivity" />
+        <activity android:name=".Login.Activitys.LifeCycle.Button_Toast.ButtonToastMainActivity" />
+        <activity android:name=".Login.Activitys.LifeCycle.Button_Intent.ButtonIntentMainActivity" />
+
+        <activity android:name=".Login.Activitys.LifeCycle.ButtonStartActivity.ButtonStartActivityMainActivity"></activity>
+        <activity android:name=".Login.Activitys.LifeCycle.ButtonStartActivity.ButtonStartActivitySecondActivity"></activity>
+        <activity android:name=".Login.Activitys.LifeCycle.ImplicitIntent.ImplicitIntentActivity"></activity>
+        <activity android:name=".Login.Activitys.LifeCycle.Button_StartActivity_extra.ButtonStartActivityExtraMainActivity"></activity>
+        <activity android:name=".Login.Activitys.LifeCycle.Button_StartActivity_extra.ButtonStartActivityExtraSecondActivity"></activity>
+        <activity android:name=".Login.Activitys.LifeCycle.ImageButton.ImageButtonMainActivity"></activity>
+        <activity android:name=".Login.Activitys.LifeCycle.EditText.EditTextMainActivity"></activity>
+        <activity android:name=".Login.Activitys.LifeCycle.RadioButtons_Listener.RadioButtonsListenerMainActivity"></activity>
+        <activity android:name=".Login.Activitys.LifeCycle.RadioButtons_onClick.RadioButtonOnClickMainActivity"></activity>
+        <activity android:name=".Login.Activitys.LifeCycle.ListView.ListViewMainActivity"></activity>
+        <activity android:name=".Login.Activitys.LifeCycle.GetColor.GetColorMainActivity"></activity>
+        <activity android:name=".Login.Activitys.LifeCycle.GradientBackGround.GradientBackGroundMainActivity"></activity>
+        <activity android:name=".Login.Activitys.LifeCycle.ImplicitIntent.AppIntentCaller.IntentCallerMainActivity"></activity>
+        <activity android:name=".Login.Activitys.LifeCycle.ImplicitIntent.AppIntentReceiver.IntentReceiverMainActivity"></activity>
+        <activity android:name=".Login.Activitys.LifeCycle.Weather_App_Design.WeatherAppDesignMainActivity"></activity>
+        <activity android:name=".Login.Activitys.LifeCycle.ListView2.ListView2MainActivity"></activity>
+        <activity android:name=".Login.Activitys.LifeCycle.ListViewCustomerAdapter.ListViewCustomerAdapterMainActivity"></activity>
+        <activity android:name=".Login.Activitys.LifeCycle.AudioRecorder.AudioRecorderMainActivity"></activity>
+        <activity android:name=".Login.Activitys.LifeCycle.DataBase.DataBaseMainActivity"></activity>
+        <activity android:name=".Login.Activitys.LifeCycle.FragmentOne.FragmentMainActivity"></activity>
+        <activity android:name=".Login.Activitys.LifeCycle.WebView.WebViewMainActivity"></activity>
+        <activity android:name=".Login.Activitys.LifeCycle.ServiceDemo.ServiceDemoMainActivity"></activity>
+<activity android:name=".Login.Activitys.LifeCycle.Service.ServiceMainActivity"></activity>
+<activity android:name=".Login.Activitys.LifeCycle.Fingerprint.FingerPrintMainActivity"></activity>
+<activity android:name=".Login.Activitys.LifeCycle.AppPrivateDirectory.AppPrivateDirectoryMainActivity"></activity>
+<activity android:name=".Login.Activitys.LifeCycle.AssetsFloder.AssetsFloderMainActivity"></activity>
+<activity android:name=".Login.Activitys.LifeCycle.IntentExtras.IntentMainActivity"></activity>
+        <service android:name=".Login.Activitys.LifeCycle.ServiceDemo.MyService"
+            android:process=":SeparateProcess"/>
+        <service
+            android:name=".Login.Activitys.LifeCycle.Service.MyService"
+            android:process=":newService"
+            android:enabled="true"
+            android:exported="false" />
+
+
+
+    </application>
+
+</manifest>

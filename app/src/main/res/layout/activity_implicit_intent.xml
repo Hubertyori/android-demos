@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login.Activitys.LifeCycle.ImplicitIntent.ImplicitIntentActivity">
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="AppIntentCaller"
+        android:textSize="20sp"
+        android:onClick="btn1onclick"/>
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="AppIntentRecever"
+        android:textSize="20sp"
+        android:onClick="btn2onclick"/>
+</LinearLayout>
